@@ -25,16 +25,16 @@ This repository contains code and data for MB-Ben under different prompting and 
 ### Vanilla_result
 
 - `zero-shot-orig_prob.py`
-  Vanilla zero-shot NLI probability extraction with a local causal LM.
+  Vanilla zero-shot probability extraction with a local causal LM.
 - `few-shot-orig_prob.py`
-  Vanilla few-shot NLI probability extraction with manually designed demonstrations.
+  Vanilla few-shot probability extraction with manually designed demonstrations.
 
 ### eval_thinking_modes
 
 - `eval_think.py`
-  API-based NLI evaluation with `reasoning_effort="high"`.
+  API-based evaluation with `reasoning_effort="high"`.
 - `eval-no-think.py`
-  API-based NLI evaluation with `reasoning_effort="none"`.
+  API-based evaluation with `reasoning_effort="none"`.
 
 These scripts output prediction logs and final accuracy summaries.
 
